@@ -24,13 +24,15 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfM-gv-Yop">
-                                <rect key="frame" x="154" y="580" width="84" height="57"/>
+                                <rect key="frame" x="95.999999999999986" y="585" width="201.66666666666663" height="57"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="84" id="0eD-88-oiM"/>
+                                    <constraint firstAttribute="width" constant="201.66666666666663" id="0eD-88-oiM"/>
                                     <constraint firstAttribute="height" constant="57" id="S5k-8Q-6yf"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" image="plus" catalog="system"/>
+                                <buttonConfiguration key="configuration" style="tinted" image="plus" catalog="system" title="Add Video" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="30"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="videoAddButtion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eNo-TA-Jdx"/>
                                 </connections>
@@ -40,10 +42,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ubv-tl-hUA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0hd-vM-lRO"/>
-                            <constraint firstItem="dfM-gv-Yop" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="154" id="Fzl-Yx-yTe"/>
+                            <constraint firstItem="dfM-gv-Yop" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="96" id="Fzl-Yx-yTe"/>
                             <constraint firstItem="ubv-tl-hUA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="MHm-Nd-itB"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dfM-gv-Yop" secondAttribute="bottom" constant="181" id="Mbk-ml-gaW"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dfM-gv-Yop" secondAttribute="trailing" constant="155" id="o9O-Nv-3HQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dfM-gv-Yop" secondAttribute="bottom" constant="176" id="Mbk-ml-gaW"/>
                             <constraint firstItem="ubv-tl-hUA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yxF-nZ-bvb"/>
                         </constraints>
                     </view>
